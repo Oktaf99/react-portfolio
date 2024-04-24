@@ -35,13 +35,7 @@ const Footer = () => {
                   <i class="ri-github-fill"></i>
                 </a>
                 <a href="" className="text-white text-[25px] font-[500]">
-                  <i class="ri-youtube-fill"></i>
-                </a>
-                <a href="" className="text-white text-[25px] font-[500]">
                   <i class="ri-linkedin-box-fill"></i>
-                </a>
-                <a href="" className="text-white text-[25px] font-[500]">
-                  <i class="ri-facebook-fill"></i>
                 </a>
                 <a href="" className="text-white text-[25px] font-[500]">
                   <i class="ri-instagram-line"></i>

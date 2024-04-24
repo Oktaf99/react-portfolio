@@ -27,9 +27,9 @@ const Portfolio = () => {
       setPortfolios(data);
     }
 
-    if (selectTab === "web-design") {
+    if (selectTab === "website") {
       const filteredData = data.filter(
-        (item) => item.category === "Web Design"
+        (item) => item.category === "Website"
       );
       setPortfolios(filteredData);
     }
@@ -60,12 +60,12 @@ const Portfolio = () => {
               All
             </button>
             <button
-              onClick={() => setSelectTab("web-design")}
+              onClick={() => setSelectTab("website")}
               className={`btn-category ${
-                selectTab === "web-design" ? "btnActive" : ""
+                selectTab === "website" ? "btnActive" : ""
               }`}
             >
-              Web Design
+              Website
             </button>
             <button
               onClick={() => setSelectTab("ux-design")}
@@ -73,7 +73,7 @@ const Portfolio = () => {
                 selectTab === "ux-design" ? "btnActive" : ""
               }`}
             >
-              UX-Design
+              UX Design
             </button>
           </div>
         </div>

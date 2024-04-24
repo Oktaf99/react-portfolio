@@ -1,19 +1,19 @@
 import React from "react";
-import Typed from 'typed.js';
+import Typed from "typed.js";
 
 import yogendra from "../../assets/images/yogendra.jpg";
 import CountUp from "react-countup";
 
+import "../../App.css"
+
 const Hero = () => {
-
-
   React.useEffect(() => {
     const typingEffect = new Typed(".multiText", {
-      strings: ['Frontend', 'Ux Designer', 'Backend'],
+      strings: ["Frontend", "Ux Designer", "Backend"],
       loop: true,
       typeSpeed: 100,
-      backSpeed: 80
-    })
+      backSpeed: 80,
+    });
 
     return () => {
       // Destroy Typed instance during cleanup to stop animation
@@ -82,7 +82,7 @@ const Hero = () => {
               nesciunt hic. Cum numquam excepturi aut magni eum, beatae
               molestiae dicta est nihil!
             </p>
-            
+
             <div className="flex items-center gap-7 mt-10">
               <h2 className="text-smallTextColor font-[600]">Follow me :</h2>
               <span className="flex items-center gap-4">
@@ -118,16 +118,13 @@ const Hero = () => {
                 </a>
               </span>
             </div>
-
-
-
           </div>
           {/* Left Content Ends */}
 
           {/* Hero Img */}
-          <div className="hero-img basis-1/3 mt-10 sm:mt-0 ">
+          <div className="hero-img bxasis-1/3 mt-10 sm:mt-0 ">
             <figure className="flex items-center justify-center">
-              <img src={yogendra} alt="" className="rounded-full" />
+              <img src={yogendra} alt="" className="rounded-full w-[350px]" />
             </figure>
           </div>
           {/* Hero Img */}

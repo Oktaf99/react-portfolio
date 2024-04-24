@@ -216,8 +216,7 @@ section {
 
   /* hero */
 
-  .hero-img img {
+  .hero-img figure img {
     margin: 0px 0px;
-    width: 20rem;
   }
 }

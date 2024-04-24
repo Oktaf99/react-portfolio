@@ -39,7 +39,7 @@ const Header = () => {
   return (
     <header
       ref={headerRef}
-      className="w-full h-[80px] leading-[80px] flex items-center"
+      className="w-full h-[80px] leading-[80px] flex items-center z-2"
     >
       <div className="container">
         <div className="flex items-center justify-between">
